@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WavesControl Id="22286" Visual="Green Glow" Width="0.062500" Nickname="" ForOutput="0">
+	<Position X="0.318310" Y="0.325182"/>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Opacity">
+		<Position X="0.016000" Y="0.046455"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="-842150451"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Global Opacity">
+		<Position X="0.016000" Y="0.092909"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="-842150451"/>
+	</Track>
+</WavesControl>

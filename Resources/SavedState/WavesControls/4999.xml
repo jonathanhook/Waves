@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WavesControl Id="4999" Visual="Rectangles" Width="0.062500" Nickname="" ForOutput="1">
+	<Position X="0.318310" Y="0.232273"/>
+	<Track Mode="0" Width="0.062500" Height="0.045455" Parameter="Centre Offset" FFTPreset="1255512">
+		<Position X="0.016000" Y="0.046455"/>
+		<FFTPreset Id="1038776"/>
+		<FFTPreset Id="1255512"/>
+		<TemporalPreset Id="0"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Zoom Speed" TemporalPreset="1254279">
+		<Position X="0.016000" Y="0.092909"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="1254279"/>
+	</Track>
+</WavesControl>

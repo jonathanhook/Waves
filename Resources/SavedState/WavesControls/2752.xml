@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WavesControl Id="2752" Visual="Curves" Width="0.062500" Nickname="" ForOutput="0">
+	<Position X="0.460042" Y="0.176476"/>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Line Speed" TemporalPreset="4528145">
+		<Position X="0.016000" Y="0.046455"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="4528145"/>
+	</Track>
+</WavesControl>

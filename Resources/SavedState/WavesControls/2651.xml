@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WavesControl Id="2651" Visual="Stars" Width="0.062500" Nickname="" ForOutput="0">
+	<Position X="0.318310" Y="0.139364"/>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Intensity" FFTPreset="685197" TemporalPreset="647471">
+		<Position X="0.016000" Y="0.046455"/>
+		<FFTPreset Id="0"/>
+		<FFTPreset Id="685197"/>
+		<TemporalPreset Id="0"/>
+		<TemporalPreset Id="647471"/>
+	</Track>
+</WavesControl>

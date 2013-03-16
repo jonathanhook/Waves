@@ -1,0 +1,939 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Waves">
+      <UniqueIdentifier>{3bbf40b6-6bd3-4a05-b55e-f585947f530d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Waves">
+      <UniqueIdentifier>{95b53b41-a7e8-4594-83e7-c2d456804706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Waves\xmlParser">
+      <UniqueIdentifier>{3fb90b17-dca0-452b-8ad8-ec8dae661fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Waves\xmlParser">
+      <UniqueIdentifier>{8bf74730-18e9-456d-945f-7be08dac665f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\JDHUtility">
+      <UniqueIdentifier>{f7187739-f5b4-46ca-b020-7552ec0cbf65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JDHUtility">
+      <UniqueIdentifier>{7bf1799d-30b3-4573-b1a2-d638a8d05c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MultiTouchEvents">
+      <UniqueIdentifier>{85278d2c-a0df-4877-9ccf-0a10cd23b6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MultiTouchEvents">
+      <UniqueIdentifier>{b5305109-6c13-4a7e-9b22-3b4b1401e0c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Visuals">
+      <UniqueIdentifier>{1784f053-2cc7-4b8f-a71e-ba1261abe0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Visuals">
+      <UniqueIdentifier>{e74c179b-82ec-49cc-8fc4-c62d0860e01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TUIO">
+      <UniqueIdentifier>{f53fbcb9-61ee-4660-82c8-8bdcbc452792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TUIO">
+      <UniqueIdentifier>{8c68dbaf-b90c-471f-9327-24d14bd5e6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FFT">
+      <UniqueIdentifier>{cffb62a6-d7e8-4d05-bb7f-73a1c183d75e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FFT">
+      <UniqueIdentifier>{86450e2d-322e-4873-9948-53fc92c2e7ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FFT\ofxFft">
+      <UniqueIdentifier>{21e72841-3c41-4166-9d46-5a439fb147b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FFT\ofxFft">
+      <UniqueIdentifier>{091f5818-0dbe-465a-a354-4cfa42b7a483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OSCPack">
+      <UniqueIdentifier>{dbe819fb-5b93-4b6a-955b-dcdc8d594c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OSCPack">
+      <UniqueIdentifier>{d3456c65-7218-4ce4-803d-e3a02075d4e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OSCPack\osc">
+      <UniqueIdentifier>{832eaa6b-ef4c-4e19-a535-37824e87cc05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OSCPack\osc">
+      <UniqueIdentifier>{3b0a1f20-7207-4dbd-aa42-eea40fbe51ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OSCPack\ip">
+      <UniqueIdentifier>{d99e9d47-f918-4cdb-8597-183f88dcbd49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OSCPack\ip">
+      <UniqueIdentifier>{647a7128-4fe2-4ef2-afdd-508d9d2d1e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OSCPack\ip\win32">
+      <UniqueIdentifier>{a64555e1-7dd6-453e-956f-c2045a50d7c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rtAudio">
+      <UniqueIdentifier>{432b67a0-1763-45ff-b94e-9240fb3e92a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rtAudio">
+      <UniqueIdentifier>{48c594e7-10a9-451a-b7d0-7af5f708b108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TapBpm">
+      <UniqueIdentifier>{05a93724-95db-46dc-b814-94607174e689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TapBpm">
+      <UniqueIdentifier>{ad23c270-54fd-4a1e-8179-ff63be503242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Visuals\kixor">
+      <UniqueIdentifier>{5d596402-bf79-43a8-91d8-96ea0e89c79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Visuals\kixor">
+      <UniqueIdentifier>{bb3bb2d6-5af7-4fb6-9e92-dbb45394ffb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Source\Waves\AddButton.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\AddToggleButton.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\BlueSquare.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\BPMControl.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\Button.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\Canvas.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\ControlPoint.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\CueButton.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\DragButton.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\DragHandle.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\ExitButton.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\ExternalVisualScrollMenu.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\FastDelegate.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\FastDelegateBind.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\FFTButton.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\FFTSplineControl.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\Finger.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\FingerHeldCursor.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\GestureRecogniser.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\GridScrollMenu.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\GridScrollMenuItem.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\InterfaceElement.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\InterfaceManager.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\LoadButton.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\LoadGridScrollMenu.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\LoadGridScrollMenuItem.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\MainControlPanel.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\NewGridScrollMenu.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\Playhead.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\PopupMenu.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\PopupMenuItem.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\PresetMenu.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\PreviewMonitor.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\RadarColumn.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\RadarElement.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\RadarHead.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\RadarSegment.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\RadButton.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\RadButtonGroup.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\ReplicateRegion.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\ResetButton.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\resource.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\SaveButton.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\ScrollMenu.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\SliderMenu.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\SplineButton.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\SplineControl.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\SplinePreset.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\SubtractButton.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\TapButton.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\TemporalSplineControl.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\TextLabel.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\TextScrollMenu.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\ToggleButton.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\Track.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\TrackMenu.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\VisualWavesControl.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\WaveCanvas.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\WavePreset.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\WavesControl.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\WavesGlobalState.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Waves\xmlParser\xmlParser.h">
+      <Filter>Header Files\Waves\xmlParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\CrossPlatformTime.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\GlutInclude.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Point2f.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\GLContext.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\GLMatrixf.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\GLFontManager.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\GLFontRenderer.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Vector2f.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\FileAccess.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\GLTexture.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\GLWindowingSystem.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Interpolator.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\MultiTouchEvents\EventSource.h">
+      <Filter>Header Files\MultiTouchEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\MultiTouchEvents\FastDelegate.h">
+      <Filter>Header Files\MultiTouchEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\MultiTouchEvents\FastDelegateBind.h">
+      <Filter>Header Files\MultiTouchEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\MultiTouchEvents\FingerEventArgs.h">
+      <Filter>Header Files\MultiTouchEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\MultiTouchEvents\MultiTouchEventHandler.h">
+      <Filter>Header Files\MultiTouchEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\MultiTouchEvents\MultiTouchEventManager.h">
+      <Filter>Header Files\MultiTouchEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\MultiTouchEvents\TuioEventSource.h">
+      <Filter>Header Files\MultiTouchEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\MultiTouchEvents\WMTouchEventSource.h">
+      <Filter>Header Files\MultiTouchEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Matrixf.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Singleton.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\AndrewTest.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\BackgroundImg.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\BlueGradient.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\Curves.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\ExternalVisual.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\GreenGlow.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\Model.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\MotionPath.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\Parameter.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\Particle.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\ParticleSystemVisual.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\PurpleGradient.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\Rectangles.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\RedGlow.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\Stars.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\Terrain.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\Visual.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Colour3f.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Colour4f.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Point3f.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Vector3f.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\FPSMonitor.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\RollingAverage.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\TUIO\TuioClient.h">
+      <Filter>Header Files\TUIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\TUIO\TuioContainer.h">
+      <Filter>Header Files\TUIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\TUIO\TuioCursor.h">
+      <Filter>Header Files\TUIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\TUIO\TuioListener.h">
+      <Filter>Header Files\TUIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\TUIO\TuioObject.h">
+      <Filter>Header Files\TUIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\TUIO\TuioPoint.h">
+      <Filter>Header Files\TUIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\TUIO\TuioServer.h">
+      <Filter>Header Files\TUIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\TUIO\TuioTime.h">
+      <Filter>Header Files\TUIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\FFT\LiveFFT.h">
+      <Filter>Header Files\FFT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\FFT\ofxFft\ofxFft.h">
+      <Filter>Header Files\FFT\ofxFft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\FFT\ofxFft\ofxFftBasic.h">
+      <Filter>Header Files\FFT\ofxFft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OSCPack\osc\MessageMappingOscPacketListener.h">
+      <Filter>Header Files\OSCPack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OSCPack\osc\OscException.h">
+      <Filter>Header Files\OSCPack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OSCPack\osc\OscHostEndianness.h">
+      <Filter>Header Files\OSCPack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OSCPack\osc\OscOutboundPacketStream.h">
+      <Filter>Header Files\OSCPack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OSCPack\osc\OscPacketListener.h">
+      <Filter>Header Files\OSCPack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OSCPack\osc\OscPrintReceivedElements.h">
+      <Filter>Header Files\OSCPack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OSCPack\osc\OscReceivedElements.h">
+      <Filter>Header Files\OSCPack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OSCPack\osc\OscTypes.h">
+      <Filter>Header Files\OSCPack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OSCPack\ip\IpEndpointName.h">
+      <Filter>Header Files\OSCPack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OSCPack\ip\NetworkingUtils.h">
+      <Filter>Header Files\OSCPack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OSCPack\ip\PacketListener.h">
+      <Filter>Header Files\OSCPack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OSCPack\ip\TimerListener.h">
+      <Filter>Header Files\OSCPack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OSCPack\ip\UdpSocket.h">
+      <Filter>Header Files\OSCPack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\rtAudio\RtAudio.h">
+      <Filter>Header Files\rtAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\rtAudio\RtError.h">
+      <Filter>Header Files\rtAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\LoadImage.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\OSCReciever.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\OSCSender.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\TapBpm\RunningAverage.h">
+      <Filter>Header Files\TapBpm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\TapBpm\TapBpm.h">
+      <Filter>Header Files\TapBpm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Ndelete.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\ColourConvertor.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\DebugTimer.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\WIN32Utils.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\GLUtils.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\kixor\list.h">
+      <Filter>Header Files\Visuals\kixor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\kixor\obj_parser.h">
+      <Filter>Header Files\Visuals\kixor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\kixor\objLoader.h">
+      <Filter>Header Files\Visuals\kixor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Visuals\kixor\string_extra.h">
+      <Filter>Header Files\Visuals\kixor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\FFT\ofxFft\_kiss_fft_guts.h">
+      <Filter>Header Files\FFT\ofxFft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\FFT\ofxFft\kiss_fft.h">
+      <Filter>Header Files\FFT\ofxFft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\FFT\ofxFft\kiss_fftr.h">
+      <Filter>Header Files\FFT\ofxFft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\WGLStuff.h">
+      <Filter>Header Files\JDHUtility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Source\Waves\AddButton.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\AddToggleButton.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\BPMControl.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\Button.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\Canvas.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\ControlPoint.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\CueButton.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\DragButton.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\DragHandle.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\ExitButton.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\ExternalVisualScrollMenu.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\FFTButton.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\FFTSplineControl.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\Finger.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\FingerHeldCursor.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\GestureRecogniser.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\GridScrollMenu.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\GridScrollMenuItem.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\InterfaceElement.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\InterfaceManager.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\LoadButton.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\LoadGridScrollMenu.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\LoadGridScrollMenuItem.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\MainControlPanel.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\NewGridScrollMenu.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\Playhead.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\PopupMenu.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\PopupMenuItem.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\PresetMenu.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\PreviewMonitor.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\RadarColumn.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\RadarElement.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\RadarHead.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\RadarSegment.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\RadButton.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\RadButtonGroup.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\ResetButton.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\SaveButton.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\ScrollMenu.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\SplineButton.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\SplineControl.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\SplinePreset.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\SubtractButton.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\TapButton.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\TemporalSplineControl.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\TextLabel.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\TextScrollMenu.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\ToggleButton.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\Track.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\TrackMenu.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\VisualWavesControl.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\WavePreset.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\WavesControl.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\WavesGlobalState.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Waves\xmlParser\xmlParser.cpp">
+      <Filter>Source Files\Waves\xmlParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\CrossPlatformTime.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Point2f.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\GLMatrixf.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\GLContext.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\GLFontManager.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\GLFontRenderer.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Vector2f.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\FileAccess.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\GLTexture.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Interpolator.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\MultiTouchEvents\EventSource.cpp">
+      <Filter>Source Files\MultiTouchEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\MultiTouchEvents\FingerEventArgs.cpp">
+      <Filter>Source Files\MultiTouchEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\MultiTouchEvents\MultiTouchEventHandler.cpp">
+      <Filter>Source Files\MultiTouchEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\MultiTouchEvents\MultiTouchEventManager.cpp">
+      <Filter>Source Files\MultiTouchEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\MultiTouchEvents\TuioEventSource.cpp">
+      <Filter>Source Files\MultiTouchEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\MultiTouchEvents\WMTouchEventSource.cpp">
+      <Filter>Source Files\MultiTouchEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Matrixf.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Singleton.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\AndrewTest.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\BackgroundImg.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\BlueGradient.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\Curves.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\ExternalVisual.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\GreenGlow.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\Model.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\MotionPath.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\Parameter.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\Particle.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\ParticleSystemVisual.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\PurpleGradient.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\Rectangles.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\RedGlow.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\Stars.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\Terrain.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\Visual.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Colour3f.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Colour4f.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Point3f.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Vector3f.cpp">
+      <Filter>Header Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\FPSMonitor.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\TUIO\TuioClient.cpp">
+      <Filter>Source Files\TUIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\TUIO\TuioServer.cpp">
+      <Filter>Source Files\TUIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\TUIO\TuioTime.cpp">
+      <Filter>Source Files\TUIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\FFT\LiveFFT.cpp">
+      <Filter>Source Files\FFT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\FFT\ofxFft\ofxFft.cpp">
+      <Filter>Source Files\FFT\ofxFft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\FFT\ofxFft\ofxFftBasic.cpp">
+      <Filter>Source Files\FFT\ofxFft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OSCPack\osc\OscOutboundPacketStream.cpp">
+      <Filter>Source Files\OSCPack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OSCPack\osc\OscPrintReceivedElements.cpp">
+      <Filter>Source Files\OSCPack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OSCPack\osc\OscReceivedElements.cpp">
+      <Filter>Source Files\OSCPack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OSCPack\osc\OscTypes.cpp">
+      <Filter>Source Files\OSCPack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OSCPack\ip\IpEndpointName.cpp">
+      <Filter>Source Files\OSCPack\ip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OSCPack\ip\win32\NetworkingUtils.cpp">
+      <Filter>Source Files\OSCPack\ip\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OSCPack\ip\win32\UdpSocket.cpp">
+      <Filter>Source Files\OSCPack\ip\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\rtAudio\RtAudio.cpp">
+      <Filter>Source Files\rtAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\LoadImage.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\OSCReciever.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\OSCSender.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\TapBpm\TapBpm.cpp">
+      <Filter>Source Files\TapBpm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\TapBpm\RunningAverage.cpp">
+      <Filter>Source Files\TapBpm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\ColourConvertor.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\DebugTimer.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\WIN32Utils.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\GLUtils.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\kixor\list.cpp">
+      <Filter>Source Files\Visuals\kixor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\kixor\obj_parser.cpp">
+      <Filter>Source Files\Visuals\kixor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\kixor\objLoader.cpp">
+      <Filter>Source Files\Visuals\kixor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Visuals\kixor\string_extra.cpp">
+      <Filter>Source Files\Visuals\kixor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\FFT\ofxFft\kiss_fft.c">
+      <Filter>Source Files\FFT\ofxFft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\FFT\ofxFft\kiss_fftr.c">
+      <Filter>Source Files\FFT\ofxFft</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\WGLStuff.cpp">
+      <Filter>Source Files\JDHUtility</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

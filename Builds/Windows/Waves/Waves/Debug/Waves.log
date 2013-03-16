@@ -1,0 +1,145 @@
+﻿Build started 16/03/2013 18:33:33.
+     1>Project "C:\Users\Jon\Documents\GitHub\Waves\Builds\Windows\Waves\Waves\Waves.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Waves.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jon\Documents\GitHub\Waves\Builds\Windows\Waves\Debug\Waves.exe" /NOLOGO /LIBPATH:..\..\..\..\Dependencies\Cg\lib /LIBPATH:..\..\..\..\fftw\lib\win32 dsound.lib ws2_32.lib glew32.lib glut32.lib glu32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Waves.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Jon\Documents\GitHub\Waves\Builds\Windows\Waves\Debug\Waves.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jon\Documents\GitHub\Waves\Builds\Windows\Waves\Debug\Waves.lib" /MACHINE:X86 Debug\LiveFFT.obj
+         Debug\kiss_fft.obj
+         Debug\kiss_fftr.obj
+         Debug\ofxFft.obj
+         Debug\ofxFftBasic.obj
+         Debug\Colour3f.obj
+         Debug\Colour4f.obj
+         Debug\ColourConvertor.obj
+         Debug\CrossPlatformTime.obj
+         Debug\DebugTimer.obj
+         Debug\FileAccess.obj
+         Debug\FPSMonitor.obj
+         Debug\GLContext.obj
+         Debug\GLFontManager.obj
+         Debug\GLFontRenderer.obj
+         Debug\GLMatrixf.obj
+         Debug\GLTexture.obj
+         Debug\GLUtils.obj
+         Debug\Interpolator.obj
+         Debug\LoadImage.obj
+         Debug\Matrixf.obj
+         Debug\OSCReciever.obj
+         Debug\OSCSender.obj
+         Debug\Point2f.obj
+         Debug\Point3f.obj
+         Debug\Singleton.obj
+         Debug\Vector2f.obj
+         Debug\Vector3f.obj
+         Debug\WGLStuff.obj
+         Debug\WIN32Utils.obj
+         Debug\EventSource.obj
+         Debug\FingerEventArgs.obj
+         Debug\MultiTouchEventHandler.obj
+         Debug\MultiTouchEventManager.obj
+         Debug\TuioEventSource.obj
+         Debug\WMTouchEventSource.obj
+         Debug\IpEndpointName.obj
+         Debug\NetworkingUtils.obj
+         Debug\UdpSocket.obj
+         Debug\OscOutboundPacketStream.obj
+         Debug\OscPrintReceivedElements.obj
+         Debug\OscReceivedElements.obj
+         Debug\OscTypes.obj
+         Debug\RtAudio.obj
+         Debug\RunningAverage.obj
+         Debug\TapBpm.obj
+         Debug\TuioClient.obj
+         Debug\TuioServer.obj
+         Debug\TuioTime.obj
+         Debug\AndrewTest.obj
+         Debug\BackgroundImg.obj
+         Debug\BlueGradient.obj
+         Debug\Curves.obj
+         Debug\ExternalVisual.obj
+         Debug\GreenGlow.obj
+         Debug\list.obj
+         Debug\objLoader.obj
+         Debug\obj_parser.obj
+         Debug\string_extra.obj
+         Debug\Model.obj
+         Debug\MotionPath.obj
+         Debug\Parameter.obj
+         Debug\Particle.obj
+         Debug\ParticleSystemVisual.obj
+         Debug\PurpleGradient.obj
+         Debug\Rectangles.obj
+         Debug\RedGlow.obj
+         Debug\Stars.obj
+         Debug\Terrain.obj
+         Debug\Visual.obj
+         Debug\AddButton.obj
+         Debug\AddToggleButton.obj
+         Debug\BPMControl.obj
+         Debug\Button.obj
+         Debug\Canvas.obj
+         Debug\ControlPoint.obj
+         Debug\CueButton.obj
+         Debug\DragButton.obj
+         Debug\DragHandle.obj
+         Debug\ExitButton.obj
+         Debug\ExternalVisualScrollMenu.obj
+         Debug\FFTButton.obj
+         Debug\FFTSplineControl.obj
+         Debug\Finger.obj
+         Debug\FingerHeldCursor.obj
+         Debug\GestureRecogniser.obj
+         Debug\GridScrollMenu.obj
+         Debug\GridScrollMenuItem.obj
+         Debug\InterfaceElement.obj
+         Debug\InterfaceManager.obj
+         Debug\LoadButton.obj
+         Debug\LoadGridScrollMenu.obj
+         Debug\LoadGridScrollMenuItem.obj
+         Debug\MainControlPanel.obj
+         Debug\NewGridScrollMenu.obj
+         Debug\Playhead.obj
+         Debug\PopupMenu.obj
+         Debug\PopupMenuItem.obj
+         Debug\PresetMenu.obj
+         Debug\PreviewMonitor.obj
+         Debug\RadarColumn.obj
+         Debug\RadarElement.obj
+         Debug\RadarHead.obj
+         Debug\RadarSegment.obj
+         Debug\RadButton.obj
+         Debug\RadButtonGroup.obj
+         Debug\ResetButton.obj
+         Debug\SaveButton.obj
+         Debug\ScrollMenu.obj
+         Debug\SplineButton.obj
+         Debug\SplineControl.obj
+         Debug\SplinePreset.obj
+         Debug\SubtractButton.obj
+         Debug\TapButton.obj
+         Debug\TemporalSplineControl.obj
+         Debug\TextLabel.obj
+         Debug\TextScrollMenu.obj
+         Debug\ToggleButton.obj
+         Debug\Track.obj
+         Debug\TrackMenu.obj
+         Debug\VisualWavesControl.obj
+         Debug\WavePreset.obj
+         Debug\WavesControl.obj
+         Debug\WavesGlobalState.obj
+         Debug\xmlParser.obj
+         Debug\main.obj
+         Waves.vcxproj -> C:\Users\Jon\Documents\GitHub\Waves\Builds\Windows\Waves\Debug\Waves.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Jon\Documents\GitHub\Waves\Builds\Windows\Waves\Debug\Waves.exe;#1" /manifest Debug\Waves.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Waves.unsuccessfulbuild".
+         Touching "Debug\Waves.lastbuildstate".
+     1>Done Building Project "C:\Users\Jon\Documents\GitHub\Waves\Builds\Windows\Waves\Waves\Waves.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.72

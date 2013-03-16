@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CB0A879F-D73B-4CB4-BF53-5613020D7526}</ProjectGuid>
+    <RootNamespace>Waves</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\Source;..\..\..\..\Source\OSCPack;..\..\..\..\Source\rtAudio;..\..\..\..\Source\TUIO</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\..\..\Dependencies\Cg\lib;..\..\..\..\fftw\lib\win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>dsound.lib;ws2_32.lib;glew32.lib;glut32.lib;glu32.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\..\..\Source;..\..\..\..\Source\OSCPack;..\..\..\..\Source\rtAudio;..\..\..\..\Source\TUIO</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\..\..\Dependencies\Cg\lib;..\..\..\..\fftw\lib\win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>dsound.lib;ws2_32.lib;glew32.lib;glut32.lib;glu32.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Source\FFT\LiveFFT.h" />
+    <ClInclude Include="..\..\..\..\Source\FFT\ofxFft\kiss_fft.h" />
+    <ClInclude Include="..\..\..\..\Source\FFT\ofxFft\kiss_fftr.h" />
+    <ClInclude Include="..\..\..\..\Source\FFT\ofxFft\ofxFft.h" />
+    <ClInclude Include="..\..\..\..\Source\FFT\ofxFft\ofxFftBasic.h" />
+    <ClInclude Include="..\..\..\..\Source\FFT\ofxFft\_kiss_fft_guts.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Colour3f.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Colour4f.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\ColourConvertor.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\CrossPlatformTime.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\DebugTimer.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\FileAccess.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\FPSMonitor.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\GLContext.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\GLFontManager.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\GLFontRenderer.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\GLMatrixf.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\GLTexture.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\GLUtils.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\GlutInclude.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\GLWindowingSystem.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Interpolator.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\LoadImage.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Matrixf.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Ndelete.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\OSCReciever.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\OSCSender.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Point2f.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Point3f.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\RollingAverage.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Singleton.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Vector2f.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\Vector3f.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\WGLStuff.h" />
+    <ClInclude Include="..\..\..\..\Source\JDHUtility\WIN32Utils.h" />
+    <ClInclude Include="..\..\..\..\Source\MultiTouchEvents\EventSource.h" />
+    <ClInclude Include="..\..\..\..\Source\MultiTouchEvents\FastDelegate.h" />
+    <ClInclude Include="..\..\..\..\Source\MultiTouchEvents\FastDelegateBind.h" />
+    <ClInclude Include="..\..\..\..\Source\MultiTouchEvents\FingerEventArgs.h" />
+    <ClInclude Include="..\..\..\..\Source\MultiTouchEvents\MultiTouchEventHandler.h" />
+    <ClInclude Include="..\..\..\..\Source\MultiTouchEvents\MultiTouchEventManager.h" />
+    <ClInclude Include="..\..\..\..\Source\MultiTouchEvents\TuioEventSource.h" />
+    <ClInclude Include="..\..\..\..\Source\MultiTouchEvents\WMTouchEventSource.h" />
+    <ClInclude Include="..\..\..\..\Source\OSCPack\ip\IpEndpointName.h" />
+    <ClInclude Include="..\..\..\..\Source\OSCPack\ip\NetworkingUtils.h" />
+    <ClInclude Include="..\..\..\..\Source\OSCPack\ip\PacketListener.h" />
+    <ClInclude Include="..\..\..\..\Source\OSCPack\ip\TimerListener.h" />
+    <ClInclude Include="..\..\..\..\Source\OSCPack\ip\UdpSocket.h" />
+    <ClInclude Include="..\..\..\..\Source\OSCPack\osc\MessageMappingOscPacketListener.h" />
+    <ClInclude Include="..\..\..\..\Source\OSCPack\osc\OscException.h" />
+    <ClInclude Include="..\..\..\..\Source\OSCPack\osc\OscHostEndianness.h" />
+    <ClInclude Include="..\..\..\..\Source\OSCPack\osc\OscOutboundPacketStream.h" />
+    <ClInclude Include="..\..\..\..\Source\OSCPack\osc\OscPacketListener.h" />
+    <ClInclude Include="..\..\..\..\Source\OSCPack\osc\OscPrintReceivedElements.h" />
+    <ClInclude Include="..\..\..\..\Source\OSCPack\osc\OscReceivedElements.h" />
+    <ClInclude Include="..\..\..\..\Source\OSCPack\osc\OscTypes.h" />
+    <ClInclude Include="..\..\..\..\Source\rtAudio\RtAudio.h" />
+    <ClInclude Include="..\..\..\..\Source\rtAudio\RtError.h" />
+    <ClInclude Include="..\..\..\..\Source\TapBpm\RunningAverage.h" />
+    <ClInclude Include="..\..\..\..\Source\TapBpm\TapBpm.h" />
+    <ClInclude Include="..\..\..\..\Source\TUIO\TuioClient.h" />
+    <ClInclude Include="..\..\..\..\Source\TUIO\TuioContainer.h" />
+    <ClInclude Include="..\..\..\..\Source\TUIO\TuioCursor.h" />
+    <ClInclude Include="..\..\..\..\Source\TUIO\TuioListener.h" />
+    <ClInclude Include="..\..\..\..\Source\TUIO\TuioObject.h" />
+    <ClInclude Include="..\..\..\..\Source\TUIO\TuioPoint.h" />
+    <ClInclude Include="..\..\..\..\Source\TUIO\TuioServer.h" />
+    <ClInclude Include="..\..\..\..\Source\TUIO\TuioTime.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\AndrewTest.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\BackgroundImg.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\BlueGradient.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\Curves.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\ExternalVisual.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\GreenGlow.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\kixor\list.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\kixor\objLoader.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\kixor\obj_parser.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\kixor\string_extra.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\Model.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\MotionPath.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\Parameter.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\Particle.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\ParticleSystemVisual.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\PurpleGradient.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\Rectangles.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\RedGlow.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\Stars.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\Terrain.h" />
+    <ClInclude Include="..\..\..\..\Source\Visuals\Visual.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\AddButton.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\AddToggleButton.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\BlueSquare.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\BPMControl.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\Button.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\Canvas.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\ControlPoint.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\CueButton.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\DragButton.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\DragHandle.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\ExitButton.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\ExternalVisualScrollMenu.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\FastDelegate.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\FastDelegateBind.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\FFTButton.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\FFTSplineControl.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\Finger.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\FingerHeldCursor.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\GestureRecogniser.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\GridScrollMenu.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\GridScrollMenuItem.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\InterfaceElement.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\InterfaceManager.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\LoadButton.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\LoadGridScrollMenu.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\LoadGridScrollMenuItem.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\MainControlPanel.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\NewGridScrollMenu.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\Playhead.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\PopupMenu.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\PopupMenuItem.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\PresetMenu.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\PreviewMonitor.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\RadarColumn.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\RadarElement.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\RadarHead.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\RadarSegment.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\RadButton.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\RadButtonGroup.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\ReplicateRegion.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\ResetButton.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\resource.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\SaveButton.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\ScrollMenu.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\SliderMenu.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\SplineButton.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\SplineControl.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\SplinePreset.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\SubtractButton.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\TapButton.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\TemporalSplineControl.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\TextLabel.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\TextScrollMenu.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\ToggleButton.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\Track.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\TrackMenu.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\VisualWavesControl.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\WaveCanvas.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\WavePreset.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\WavesControl.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\WavesGlobalState.h" />
+    <ClInclude Include="..\..\..\..\Source\Waves\xmlParser\xmlParser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Source\FFT\LiveFFT.cpp" />
+    <ClCompile Include="..\..\..\..\Source\FFT\ofxFft\kiss_fft.c" />
+    <ClCompile Include="..\..\..\..\Source\FFT\ofxFft\kiss_fftr.c" />
+    <ClCompile Include="..\..\..\..\Source\FFT\ofxFft\ofxFft.cpp" />
+    <ClCompile Include="..\..\..\..\Source\FFT\ofxFft\ofxFftBasic.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Colour3f.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Colour4f.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\ColourConvertor.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\CrossPlatformTime.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\DebugTimer.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\FileAccess.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\FPSMonitor.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\GLContext.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\GLFontManager.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\GLFontRenderer.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\GLMatrixf.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\GLTexture.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\GLUtils.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Interpolator.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\LoadImage.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Matrixf.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\OSCReciever.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\OSCSender.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Point2f.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Point3f.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Singleton.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Vector2f.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\Vector3f.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\WGLStuff.cpp" />
+    <ClCompile Include="..\..\..\..\Source\JDHUtility\WIN32Utils.cpp" />
+    <ClCompile Include="..\..\..\..\Source\MultiTouchEvents\EventSource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\MultiTouchEvents\FingerEventArgs.cpp" />
+    <ClCompile Include="..\..\..\..\Source\MultiTouchEvents\MultiTouchEventHandler.cpp" />
+    <ClCompile Include="..\..\..\..\Source\MultiTouchEvents\MultiTouchEventManager.cpp" />
+    <ClCompile Include="..\..\..\..\Source\MultiTouchEvents\TuioEventSource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\MultiTouchEvents\WMTouchEventSource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\OSCPack\ip\IpEndpointName.cpp" />
+    <ClCompile Include="..\..\..\..\Source\OSCPack\ip\win32\NetworkingUtils.cpp" />
+    <ClCompile Include="..\..\..\..\Source\OSCPack\ip\win32\UdpSocket.cpp" />
+    <ClCompile Include="..\..\..\..\Source\OSCPack\osc\OscOutboundPacketStream.cpp" />
+    <ClCompile Include="..\..\..\..\Source\OSCPack\osc\OscPrintReceivedElements.cpp" />
+    <ClCompile Include="..\..\..\..\Source\OSCPack\osc\OscReceivedElements.cpp" />
+    <ClCompile Include="..\..\..\..\Source\OSCPack\osc\OscTypes.cpp" />
+    <ClCompile Include="..\..\..\..\Source\rtAudio\RtAudio.cpp" />
+    <ClCompile Include="..\..\..\..\Source\TapBpm\RunningAverage.cpp" />
+    <ClCompile Include="..\..\..\..\Source\TapBpm\TapBpm.cpp" />
+    <ClCompile Include="..\..\..\..\Source\TUIO\TuioClient.cpp" />
+    <ClCompile Include="..\..\..\..\Source\TUIO\TuioServer.cpp" />
+    <ClCompile Include="..\..\..\..\Source\TUIO\TuioTime.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\AndrewTest.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\BackgroundImg.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\BlueGradient.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\Curves.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\ExternalVisual.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\GreenGlow.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\kixor\list.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\kixor\objLoader.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\kixor\obj_parser.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\kixor\string_extra.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\Model.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\MotionPath.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\Parameter.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\Particle.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\ParticleSystemVisual.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\PurpleGradient.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\Rectangles.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\RedGlow.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\Stars.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\Terrain.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Visuals\Visual.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\AddButton.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\AddToggleButton.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\BPMControl.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\Button.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\Canvas.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\ControlPoint.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\CueButton.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\DragButton.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\DragHandle.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\ExitButton.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\ExternalVisualScrollMenu.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\FFTButton.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\FFTSplineControl.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\Finger.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\FingerHeldCursor.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\GestureRecogniser.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\GridScrollMenu.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\GridScrollMenuItem.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\InterfaceElement.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\InterfaceManager.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\LoadButton.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\LoadGridScrollMenu.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\LoadGridScrollMenuItem.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\MainControlPanel.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\NewGridScrollMenu.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\Playhead.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\PopupMenu.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\PopupMenuItem.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\PresetMenu.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\PreviewMonitor.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\RadarColumn.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\RadarElement.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\RadarHead.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\RadarSegment.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\RadButton.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\RadButtonGroup.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\ResetButton.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\SaveButton.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\ScrollMenu.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\SplineButton.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\SplineControl.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\SplinePreset.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\SubtractButton.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\TapButton.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\TemporalSplineControl.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\TextLabel.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\TextScrollMenu.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\ToggleButton.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\Track.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\TrackMenu.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\VisualWavesControl.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\WavePreset.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\WavesControl.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\WavesGlobalState.cpp" />
+    <ClCompile Include="..\..\..\..\Source\Waves\xmlParser\xmlParser.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

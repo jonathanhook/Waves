@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SplinePreset Id="647471" Width="0.062500" PresetType="1">
+	<ControlPoint X="0.040442" Y="0.258866"/>
+	<ControlPoint X="0.139633" Y="0.784934"/>
+	<ControlPoint X="0.312500" Y="0.580353"/>
+	<ControlPoint X="0.389633" Y="0.784934"/>
+	<ControlPoint X="0.540442" Y="0.258866"/>
+	<ControlPoint X="0.639633" Y="0.784934"/>
+	<ControlPoint X="0.812500" Y="0.580353"/>
+	<ControlPoint X="0.889633" Y="0.784934"/>
+</SplinePreset>

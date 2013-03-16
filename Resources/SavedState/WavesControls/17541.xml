@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WavesControl Id="17541" Visual="Terrain" Width="0.062500" Nickname="Test" ForOutput="0">
+	<Position X="0.574488" Y="0.210191"/>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Opacity" TemporalPreset="5573534">
+		<Position X="0.016000" Y="0.046455"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="5573534"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Height Offset" TemporalPreset="5573535">
+		<Position X="0.016000" Y="0.092909"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="5573535"/>
+	</Track>
+</WavesControl>

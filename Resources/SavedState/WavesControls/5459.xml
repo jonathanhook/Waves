@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WavesControl Id="5459" Visual="Stars" Width="0.062500" Nickname="" ForOutput="1">
+	<Position X="0.533067" Y="0.172994"/>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Jitter" TemporalPreset="6749786">
+		<Position X="0.016000" Y="0.046455"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="6749786"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Intensity" TemporalPreset="6749788">
+		<Position X="0.016000" Y="0.092909"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="6749788"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Trail length" TemporalPreset="6747689">
+		<Position X="0.016000" Y="0.139364"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="6747689"/>
+	</Track>
+</WavesControl>

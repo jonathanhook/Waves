@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WavesControl Id="25385" Visual="Testing Visual" Width="0.062500" Nickname="" ForOutput="0">
+	<Position X="0.318310" Y="0.185818"/>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Opacity">
+		<Position X="0.016000" Y="0.046455"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="-842150451"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Hue">
+		<Position X="0.016000" Y="0.092909"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="-842150451"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Global Opacity">
+		<Position X="0.016000" Y="0.139364"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="-842150451"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Luminance">
+		<Position X="0.016000" Y="0.185818"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="-842150451"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Position X">
+		<Position X="0.016000" Y="0.232273"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="-842150451"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Saturation" TemporalPreset="54719253">
+		<Position X="0.016000" Y="0.278727"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="54719253"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Position Z" TemporalPreset="54719257">
+		<Position X="0.016000" Y="0.325182"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="54719257"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Position Y" TemporalPreset="54719261">
+		<Position X="0.016000" Y="0.371636"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="54719261"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Rotation X" TemporalPreset="54719264">
+		<Position X="0.016000" Y="0.418091"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="54719264"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Scale" TemporalPreset="54719268">
+		<Position X="0.016000" Y="0.464545"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="54719268"/>
+	</Track>
+</WavesControl>

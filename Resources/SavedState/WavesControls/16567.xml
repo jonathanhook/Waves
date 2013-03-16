@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WavesControl Id="16567" Visual="Stars" Width="0.062500" Nickname="" ForOutput="1">
+	<Position X="0.318310" Y="0.139364"/>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Trail length" FFTPreset="6899210" TemporalPreset="6899212">
+		<Position X="0.016000" Y="0.046455"/>
+		<FFTPreset Id="6899210"/>
+		<TemporalPreset Id="6899212"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Intensity" TemporalPreset="6899213">
+		<Position X="0.016000" Y="0.092909"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="6899213"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Opacity" TemporalPreset="11217004">
+		<Position X="0.016000" Y="0.139364"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="-842150451"/>
+		<TemporalPreset Id="11217004"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Jitter" TemporalPreset="11287247">
+		<Position X="0.016000" Y="0.185818"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="11217006"/>
+		<TemporalPreset Id="11287247"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Speed" TemporalPreset="11287249">
+		<Position X="0.016000" Y="0.232273"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="11217007"/>
+		<TemporalPreset Id="11287249"/>
+	</Track>
+	<Track Mode="1" Width="0.062500" Height="0.045455" Parameter="Twist">
+		<Position X="0.016000" Y="0.278727"/>
+		<FFTPreset Id="-842150451"/>
+		<TemporalPreset Id="11217009"/>
+		<TemporalPreset Id="0"/>
+	</Track>
+</WavesControl>
